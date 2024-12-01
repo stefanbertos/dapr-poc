@@ -1,3 +1,6 @@
+kubectl config get-contexts
+kubectl config use-context docker-desktop
+
 kubectl create namespace vault
 
 kubectl get all --namespace vault
@@ -10,4 +13,4 @@ helm install vault hashicorp/vault --namespace vault --dry-run
 
 helm search repo hashicorp/vault --versions
 
-helm install vault hashicorp/vault --namespace vault --version 0.28.0
+helm install vault hashicorp/vault --namespace vault --version 0.29.1

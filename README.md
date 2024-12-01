@@ -2,8 +2,7 @@
 
 See architecture in [Architecture.drawio.png](Architecture.drawio.png)
 
-Install Docker desktop https://www.docker.com/products/docker-desktop/ 
-Install Kubectl https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/ 
+Install Docker desktop https://www.docker.com/products/docker-desktop/
 Install Helm https://helm.sh/docs/intro/install/ 
 
 helm install my-release ./email-service/helm/email-service
