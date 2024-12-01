@@ -1,0 +1,1 @@
+https://docs.dapr.io/operations/observability/logging/fluentd/
